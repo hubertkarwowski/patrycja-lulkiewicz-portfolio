@@ -306,7 +306,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(229,106,164, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -319,18 +319,18 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #fff;
 }
 
 #hero p {
-  color: #45505b;
+  color: #fff;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   letter-spacing: 1px;
 }
 
@@ -341,7 +341,7 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: #fff;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -366,6 +366,17 @@ h6 {
     font-size: 20px;
     line-height: 24px;
   }
+}
+
+#hero .btn-download{
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+#hero .btn-download:hover{
+  transform: scale(105%);
 }
 
 /*--------------------------------------------------------------
@@ -698,12 +709,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #45505b;
+  color: #fff;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #45505b;
+  color: #fff;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -716,7 +727,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #45505b;
+  color: #fff;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -724,7 +735,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #fff;
+  color: var(--primary-color);
 }
 
 .portfolio .portfolio-wrap:hover::before {

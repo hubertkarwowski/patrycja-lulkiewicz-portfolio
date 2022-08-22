@@ -12,7 +12,6 @@
    */
   const select = (el, all = false) => {
     el = el.trim()
-    console.log(el)
     if (all) {
       return [...document.querySelectorAll(el)]
     } else {
